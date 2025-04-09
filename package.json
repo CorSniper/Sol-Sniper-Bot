@@ -1,1 +1,16 @@
-
+{
+  "name": "solana-sniper-bot",
+  "version": "3.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@solana/web3.js": "^1.86.0",
+    "@solana/spl-token": "^0.4.0",
+    "axios": "^1.6.2",
+    "boxen": "^5.1.2",
+    "bs58": "^5.0.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "node-hashing": "^0.3.1",
+    "ws": "^8.13.0"
+  }
+}
