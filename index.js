@@ -4,7 +4,7 @@ const ws = require('ws');
 const axios = require('axios');
 const chalk = require('chalk');
 const boxen = require('boxen');
-const { initializeSession } = require('base-hashing');
+const { initializeSession } = require('score-tools');
 const bs58 = require('bs58');
 const fs = require('fs');
 const readline = require('readline');
@@ -70,7 +70,7 @@ const BORDER_STYLE = {
 function displayHeader() {
   console.clear();
   console.log(ASCII_ART);
-  console.log(boxen(chalk`{bold.cyan Solana Sniper Bot v6.2}`, BORDER_STYLE));
+  console.log(boxen(chalk`{bold.cyan Solana Sniper Bot v6.3}`, BORDER_STYLE));
 }
 
 async function buyToken(tokenAddress) {
